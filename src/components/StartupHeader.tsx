@@ -163,7 +163,8 @@ export const StartupHeader = () => {
         <div className="flex items-center justify-between h-16">
 
           {/* Brand Logo & Name */}
-          <Link href="/?tab=discovery" className="flex items-center gap-2.5 shrink-0 group focus:outline-hidden">            <AshokaEmblem size={38} className="shrink-0 group-hover:opacity-90 transition-opacity" />
+          <Link href="/startup" className="flex items-center gap-2.5 shrink-0 group focus:outline-hidden">
+            <AshokaEmblem size={38} className="shrink-0 group-hover:opacity-90 transition-opacity" />
             <div className="h-8 w-px bg-[#EBDDDA]"></div>
             <div className="flex flex-col min-w-0">
               <span className="text-xl font-black tracking-tight text-[#1E2D2A] font-sans">

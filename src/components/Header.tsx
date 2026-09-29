@@ -426,7 +426,7 @@ export function Header() {
 
           {/* Logo Block: Ashoka Emblem + Divider + ProcSync Wordmark */}
           <Link
-            href="/"
+            href="/gov"
             className="flex items-center gap-2.5 shrink-0 group focus:outline-hidden"
             title="ProcSync • Government Innovation Procurement Portal"
           >
