@@ -1,12 +1,6 @@
-import type { Metadata } from "next";
 import { Suspense } from "react";
 
-export const metadata: Metadata = {
-  title: "ProcSync • Unified Login Gateway",
-  description: "Unified Login Gateway for Government Innovation Procurement Portal",
-};
-
-export default function LoginLayout({
+export default function AuthLayout({
   children,
 }: {
   children: React.ReactNode;
