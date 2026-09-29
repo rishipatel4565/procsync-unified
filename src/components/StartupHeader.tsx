@@ -63,7 +63,7 @@ export const StartupHeader = () => {
       id: "opportunities",
       label: "Opportunities & Proposals",
       shortLabel: "Opportunities",
-      href: "/?tab=discovery",
+      href: "/startup?tab=discovery",
       icon: Compass,
       subTabs: [
         { id: "discovery", label: "Municipal Challenge Radar", desc: "Open departmental outcome challenges across Maharashtra" },
@@ -76,7 +76,7 @@ export const StartupHeader = () => {
       id: "trials",
       label: "Trials & Escrow",
       shortLabel: "Trials & Escrow",
-      href: "/trials?tab=milestones",
+      href: "/startup/trials?tab=milestones",
       icon: Activity,
       subTabs: [
         { id: "milestones", label: "3-Phase Milestone Execution", desc: "M1 Deployment, M2 Basalt Calibration, M3 Audit Closeout" },
@@ -89,7 +89,7 @@ export const StartupHeader = () => {
       id: "upload",
       label: "Field Evidence & AI",
       shortLabel: "Evidence & AI",
-      href: "/upload?tab=upload",
+      href: "/startup/upload?tab=upload",
       icon: UploadCloud,
       subTabs: [
         { id: "upload", label: "Sensor Telemetry Ingestion", desc: "Upload raw acoustic waveforms, SCADA packets & photo logs" },
@@ -101,7 +101,7 @@ export const StartupHeader = () => {
       id: "passports",
       label: "Readiness Passports",
       shortLabel: "Passports",
-      href: "/passports?tab=passport",
+      href: "/startup/passports?tab=passport",
       icon: FileCheck,
       subTabs: [
         { id: "passport", label: "Verified Passport Viewer", desc: "#MH-EP-2025-WTR-0042 full single-artifact record" },
@@ -113,7 +113,7 @@ export const StartupHeader = () => {
       id: "profile",
       label: "Startup Profile",
       shortLabel: "Profile",
-      href: "/profile?tab=venture",
+      href: "/startup/profile?tab=venture",
       icon: ShieldCheck,
       subTabs: [
         { id: "venture", label: "Venture Credentials & Solvency", desc: "DPIIT #DIPP99421, Maharashtra entity, 14m audited runway" },
