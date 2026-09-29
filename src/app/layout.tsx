@@ -61,7 +61,7 @@ export default function RootLayout({
                     SIH 2026 • Problem Statement ID: 26136 • Build: v4.2-National
                   </div>
                 </div>
-              </div            </footer>
+              </div></footer>
           </TranslationProvider>
         </AppProvider>
       </body>
