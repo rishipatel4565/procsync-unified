@@ -25,8 +25,8 @@ import { AshokaEmblem } from "@/components/AshokaEmblem";
 type PortalRole = "GOVERNMENT" | "STARTUP";
 type AuthMode = "signin" | "signup";
 
-const GOV_PORTAL_URL = "http://localhost:3000";
-const STARTUP_PORTAL_URL = "http://localhost:3001";
+const GOV_PORTAL_URL = "/gov";
+const STARTUP_PORTAL_URL = "/startup";
 
 // Registry of pre-issued government IDs (mock of the MSInS identity service)
 const GOV_ID_REGISTRY: Record<string, { name: string; org: string }> = {
