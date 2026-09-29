@@ -1,6 +1,7 @@
 import { StartupHeader } from "@/components/StartupHeader";
 import { AshokaEmblem } from "@/components/AshokaEmblem";
 import { Suspense } from "react";
+import { AppProvider } from "@/context/StartupAppContext";
 
 export default function StartupLayout({
   children,
@@ -8,7 +9,7 @@ export default function StartupLayout({
   children: React.ReactNode;
 }) {
   return (
-    <>
+    <AppProvider>
       <Suspense fallback={<div className="p-3 bg-[#2F4541] text-white text-xs text-center font-mono">Loading ProcSync Startup Portal...</div>}>
         <StartupHeader />
       </Suspense>
@@ -53,7 +54,8 @@ export default function StartupLayout({
               SIH 2026 • Problem Statement ID: 26136 • Build: v4.2-National
             </div>
           </div>
-        </div></footer>
-    </>
+        </div>
+      </footer>
+    </AppProvider>
   );
 }
