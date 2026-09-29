@@ -156,7 +156,7 @@ export function Header() {
     {
       id: "analytics",
       label: "Analytics",
-      href: "/?tab=metrics",
+      href: "/gov?tab=metrics",
       subTabs: [
         {
           id: "metrics",
@@ -187,7 +187,7 @@ export function Header() {
     {
       id: "challenges",
       label: "Challenges",
-      href: "/challenge?tab=problem",
+      href: "/gov/challenge?tab=problem",
       subTabs: [
         {
           id: "problem",
@@ -224,7 +224,7 @@ export function Header() {
     {
       id: "evaluation",
       label: "Evaluation",
-      href: "/evaluator?tab=dossier",
+      href: "/gov/evaluator?tab=dossier",
       subTabs: [
         {
           id: "dossier",
@@ -255,7 +255,7 @@ export function Header() {
     {
       id: "pilots",
       label: "Pilots & Decision",
-      href: "/pilot",
+      href: "/gov/pilot",
       subTabs: [
         {
           id: "builder",
@@ -292,7 +292,7 @@ export function Header() {
     {
       id: "replication",
       label: "Replication",
-      href: "/replication",
+      href: "/gov/replication",
       subTabs: [
         {
           id: "comparison",
@@ -323,7 +323,7 @@ export function Header() {
     {
       id: "passports",
       label: "Passports",
-      href: "/passport",
+      href: "/gov/passport",
       subTabs: [
         {
           id: "unified",
@@ -354,7 +354,7 @@ export function Header() {
     {
       id: "templates",
       label: "Templates",
-      href: "/templates",
+      href: "/gov/templates",
       subTabs: [
         {
           id: "registry",
